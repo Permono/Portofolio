@@ -6,8 +6,12 @@
     <title>Arjun Permono - Proyek</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Fitur 8: Scroll Progress Bar -->
+    <div class="scroll-progress-bar"></div>
+
     <nav>
         <div class="container">
             <a href="index.html" class="logo">PORTOFOLIO</a>
@@ -26,20 +30,26 @@
                 <div class="projects-grid-horizontal">
                     <!-- Project Card 1 -->
                     <div class="project-card reveal">
-                        <img src="https://via.placeholder.com/400x250.png?text=Proyek+1" alt="Preview Proyek 1">
+                        <div class="project-image-wrapper">
+                            <img>
+                        </div>
                         <div class="project-card-content">
-                            <h3>Nama Proyek 1</h3>
-                            <p class="project-tech">Tech: React, Node.js, MongoDB</p>
-                            <p>Aplikasi web untuk melakukan tracking kebiasaan harian agar meningkatkan produktivitas.</p>
+                            <h3>Final Project Struktur Data</h3>
+                            <p class="project-tech">Tech: C</p>
+                            <p>Manajemen Daftar Kontak bertujuan untuk mengelola daftar kontak secara efisien dengan memanfaatkan tiga struktur data utama.</p>
                             <div class="project-links">
-                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                                <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                                <a href="https://github.com/Vyn17/FP_StrukDat_Kel8" target="_blank"><i class="fab fa-github"></i> GitHub</a>
                             </div>
                         </div>
                     </div>
                     <!-- Project Card 2 -->
                     <div class="project-card reveal">
-                        <img src="https://via.placeholder.com/400x250.png?text=Proyek+2" alt="Preview Proyek 2">
+                        <div class="project-image-wrapper">
+                            <img class="lazy-load"
+                                src="image/placeholder-tiny.png"
+                                data-src="image/image2.png"
+                                alt="Preview Optimasi Jalur Robot">    
+                        </div>
                         <div class="project-card-content">
                             <h3>Pengoptimalan jalur untuk robot</h3>
                             <p class="project-tech">Tech: Python</p>
@@ -51,7 +61,12 @@
                     </div>
                     <!-- Project Card 3 -->
                     <div class="project-card reveal">
-                        <img src="https://via.placeholder.com/400x250.png?text=Proyek+3" alt="Preview Proyek 3">
+                        <div class="project-image-wrapper">
+                            <img class="lazy-load"
+                                src="image/placeholder-tiny.png"
+                                data-src="image/image.png"
+                                alt="Preview Prototipe Jamu">
+                        </div>
                         <div class="project-card-content">
                             <h3>Prototipe Pemesanan Jamu</h3>
                             <p class="project-tech">Tech: HTML, CSS, JavaScript</p>
@@ -76,7 +91,7 @@
                 <a href="mailto:23081010240@student.upnjatim.ac.id" aria-label="Email">
                     <i class="fas fa-envelope"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/username-kamu" target="_blank" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/arjun-permono-b2a587288/" target="_blank" aria-label="LinkedIn">
                     <i class="fab fa-linkedin"></i>
                 </a>
                 <a href="https://github.com/Permono" target="_blank" aria-label="GitHub">
